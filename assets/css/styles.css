@@ -308,7 +308,8 @@ a {
 
 .features .list {
   margin-top: 70px;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
 
@@ -574,7 +575,7 @@ a {
 }
 
 .footer .upper-row {
-  gap: 185px;
+  column-gap: 185px;
 }
 
 .footer .upper-row .heading {
